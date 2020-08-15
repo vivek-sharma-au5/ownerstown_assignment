@@ -91,6 +91,12 @@ const Dialer = () => {
     setStrengthData("");
   };
 
+  const deleteNum = () => {
+    outputData.pop();
+    setOutput("");
+    window.location.reload();
+  };
+
   return (
     <div className='main-row'>
       <div className='dialer-div'>
@@ -141,8 +147,8 @@ const Dialer = () => {
               </div>
             </div>
             <div className='row'>
-              <div className='digit' onClick={() => saveCode("*")}>
-                *<div className='sub'></div>
+              <div className='digit' onClick={() => deleteNum()}>
+                *<div className='sub'>clear</div>
               </div>
               <div className='digit' onClick={() => handleZeroSpace(0)}>
                 0<div className='sub'>zero</div>
