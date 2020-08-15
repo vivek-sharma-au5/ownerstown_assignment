@@ -1,0 +1,194 @@
+[
+  {
+    "name": "SUPERMAN",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/667.jpg",
+    "powerstats": {
+      "intelligence": "75",
+      "strength": "93",
+      "speed": "92",
+      "durability": "100",
+      "power": "100",
+      "combat": "80"
+    }
+  },
+  {
+    "name": "THOR",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/140.jpg",
+    "powerstats": {
+      "intelligence": "100",
+      "strength": "53",
+      "speed": "25",
+      "durability": "65",
+      "power": "68",
+      "combat": "70"
+    }
+  },
+  {
+    "name": "ROBIN",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/850.jpg",
+    "powerstats": {
+      "intelligence": "88",
+      "strength": "11",
+      "speed": "27",
+      "durability": "28",
+      "power": "32",
+      "combat": "85"
+    }
+  },
+  {
+    "name": "IRONMAN",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/85.jpg",
+    "powerstats": {
+      "intelligence": "100",
+      "strength": "85",
+      "speed": "58",
+      "durability": "85",
+      "power": "100",
+      "combat": "64"
+    }
+  },
+  {
+    "name": "GHOSTRIDER",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/67.jpg",
+    "powerstats": {
+      "intelligence": "50",
+      "strength": "55",
+      "speed": "25",
+      "durability": "100",
+      "power": "100",
+      "combat": "60"
+    }
+  },
+  {
+    "name": "CAPTAINAMERICA",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/274.jpg",
+    "powerstats": {
+      "intelligence": "69",
+      "strength": "19",
+      "speed": "38",
+      "durability": "55",
+      "power": "60",
+      "combat": "100"
+    }
+  },
+  {
+    "name": "FLASH",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/891.jpg",
+    "powerstats": {
+      "intelligence": "63",
+      "strength": "10",
+      "speed": "100",
+      "durability": "50",
+      "power": "68",
+      "combat": "32"
+    }
+  },
+  {
+    "name": "WOLVERINE",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/161.jpg",
+    "powerstats": {
+      "intelligence": "63",
+      "strength": "32",
+      "speed": "50",
+      "durability": "100",
+      "power": "89",
+      "combat": "100"
+    }
+  },
+  {
+    "name": "BATMAN",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/10441.jpg",
+    "powerstats": {
+      "intelligence": "81",
+      "strength": "40",
+      "speed": "29",
+      "durability": "55",
+      "power": "63",
+      "combat": "90"
+    }
+  },
+  {
+    "name": "HULK",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/83.jpg",
+    "powerstats": {
+      "intelligence": "88",
+      "strength": "100",
+      "speed": "63",
+      "durability": "100",
+      "power": "98",
+      "combat": "85"
+    }
+  },
+  {
+    "name": "BLADE",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/33.jpg",
+    "powerstats": {
+      "intelligence": "63",
+      "strength": "28",
+      "speed": "38",
+      "durability": "50",
+      "power": "40",
+      "combat": "90"
+    }
+  },
+  {
+    "name": "PUNISHER",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/112.jpg",
+    "powerstats": {
+      "intelligence": "69",
+      "strength": "16",
+      "speed": "21",
+      "durability": "45",
+      "power": "42",
+      "combat": "100"
+    }
+  },
+  {
+    "name": "HELLBOY",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/813.jpg",
+    "powerstats": {
+      "intelligence": "63",
+      "strength": "53",
+      "speed": "21",
+      "durability": "95",
+      "power": "73",
+      "combat": "75"
+    }
+  },
+  {
+    "name": "BLACKWIDOW",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/248.jpg",
+    "powerstats": {
+      "intelligence": "75",
+      "strength": "13",
+      "speed": "33",
+      "durability": "30",
+      "power": "36",
+      "combat": "100"
+    }
+  },
+  {
+    "name": "SPIDERMAN",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/133.jpg",
+    "powerstats": {
+      "intelligence": "90",
+      "strength": "55",
+      "speed": "67",
+      "durability": "75",
+      "power": "74",
+      "combat": "85"
+    }
+  },
+  {
+    "name": "PHANTOM",
+    "image": "https://www.superherodb.com/pictures2/portraits/10/100/889.jpg",
+    "powerstats": {
+      "intelligence": "null",
+      "strength": "48",
+      "speed": "null",
+      "durability": "null",
+      "power": "null",
+      "combat": "null"
+    }
+  }
+]

@@ -1,5 +1,6 @@
 var express = require("express");
 var router = express.Router();
+var superheroData = require("../superHerosDetails.json");
 
 router.post("/superhero", async (req, res) => {
   var keyPad = [
@@ -60,8 +61,9 @@ router.post("/superhero", async (req, res) => {
   printWords(number, n);
 
   var result = data.filter((value) => superHeros.includes(value));
-  res.send(result);
-  console.log(result.join(""));
+  var final = superheroData.filter((ele) => ele.name === result.join(""));
+  res.send(final);
+  console.log(final);
 });
 
 module.exports = router;

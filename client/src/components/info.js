@@ -2,8 +2,6 @@ import React from "react";
 import "../App.css";
 
 const Dialer = ({ displayData, strength, image, loading, error }) => {
-  const { name } = displayData;
-
   return (
     <div className='the-info'>
       <div className='col-12'>
@@ -34,7 +32,7 @@ const Dialer = ({ displayData, strength, image, loading, error }) => {
             )}
           </div>
           <div className='col-6 dtl-div'>
-            <div className='col-12 ml-1'>{name}</div>
+            <div className='col-12 ml-1'>{displayData}</div>
 
             {strength ? (
               <div className='col-12'>

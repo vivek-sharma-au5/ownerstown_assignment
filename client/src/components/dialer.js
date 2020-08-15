@@ -21,6 +21,7 @@ const Dialer = () => {
     };
 
     if (output[0] === 0) {
+      setLoading(true);
       axios({
         method: "post",
         url: "/superhero",
@@ -29,44 +30,52 @@ const Dialer = () => {
         .then((response) => {
           console.log(response);
           setOutput("");
-          getSuperHeroData(response.data.join(" "));
+          setDisplayData(response.data[0].name);
+          setImageData(response.data[0].image);
+          setStrengthData(response.data[0].powerstats);
+          setCode("");
+          setLoading(false);
         })
         .catch((error) => {
           console.log(error.response);
+          setDisplayData("");
+          setImageData("");
+          setStrengthData("");
+          setError("Invalid Code");
+          setLoading(false);
         });
     } else {
-      setError("invalid Code");
+      console.log(error.response);
+      setDisplayData("");
+      setImageData("");
+      setStrengthData("");
+      setError("Invalid Code");
+      setLoading(false);
     }
   };
 
-  const getSuperHeroData = (query) => {
-    setLoading(true);
-    axios({
-      method: "get",
-      url: `https://www.superheroapi.com/api.php/3579268208772127/search/${query}`,
-    })
-      .then((response) => {
-        console.log("data-response SH");
-        const filtered = response.data.results.filter(
-          (ele) => ele.name.toLowerCase() === query.toLowerCase()
-        );
-        console.log("filtered", filtered);
-        setDisplayData(filtered[0]);
-        setImageData(filtered[0].image.url);
-        setStrengthData(filtered[0].powerstats);
-        setCode("");
-        setLoading(false);
-      })
-      .catch((error) => {
-        console.log(error.response);
-        setDisplayData("");
-        setImageData("");
-        setStrengthData("");
-        setError("Invalid Code");
-        setLoading(false);
-        window.location.reload();
-      });
-  };
+  // const getSuperHeroData = (query) => {
+  //
+  //   axios({
+  //     method: "get",
+  //     url: `https://www.superheroapi.com/api.php/3579268208772127/search/${query}`,
+  //   })
+  //     .then((response) => {
+  //       console.log("data-response SH");
+  //       const filtered = response.data.results.filter(
+  //         (ele) => ele.name.toLowerCase() === query.toLowerCase()
+  //       );
+  //       console.log("filtered", filtered);
+  //       setDisplayData(filtered[0]);
+  //       setImageData(filtered[0].image.url);
+  //       setStrengthData(filtered[0].powerstats);
+  //       setCode("");
+  //       setLoading(false);
+  //     })
+  //     .catch((error) => {
+  //
+  //     });
+  // };
 
   const saveCode = (num) => {
     userNums.push(num);
