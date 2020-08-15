@@ -35,7 +35,7 @@ router.post("/superhero", async (req, res) => {
 
   var data = [];
 
-  function printWordsUtil(number, curr, output, n) {
+  function getAllWords(number, curr, output, n) {
     if (curr == n) {
       data.push(output.join(""));
       return;
@@ -46,13 +46,13 @@ router.post("/superhero", async (req, res) => {
         return;
       }
       output.push(keyPad[number[curr]][i]);
-      printWordsUtil(number, curr + 1, output, n);
+      getAllWords(number, curr + 1, output, n);
       output.pop();
     }
   }
 
   function printWords(number, n) {
-    printWordsUtil(number, 0, [], n);
+    getAllWords(number, 0, [], n);
   }
 
   var number = req.body.code;
