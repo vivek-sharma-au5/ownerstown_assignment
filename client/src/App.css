@@ -1,0 +1,248 @@
+body {
+  background: url(https://wallpaperhook.com/wp-content/uploads/2019/06/avengers-endgame-7173x3000-marvel-superheroes-4k-8k.jpg)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Bangers", cursive;
+  color: whitesmoke;
+}
+
+.navbar {
+  display: flex;
+  font-size: 40px;
+  justify-content: center;
+  background-color: rgb(41, 41, 41);
+  color: rgb(255, 217, 2);
+  box-shadow: 0px 0px 11px -1px rgb(0, 0, 0);
+}
+
+.logo {
+  opacity: 1;
+  letter-spacing: 5px;
+  color: goldenrod;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.main-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.row {
+  margin-left: 20px;
+  width: 280px;
+  clear: both;
+  text-align: center;
+  color: black;
+}
+
+.digit,
+.dig {
+  float: left;
+  padding: 10px 30px;
+  width: 30px;
+  font-size: 2rem;
+  color: whitesmoke;
+  cursor: pointer;
+  background-color: #000000;
+  border: 2px solid rgb(189, 189, 189);
+  border-radius: 30px;
+  box-shadow: 0px 0px 11px -1px rgba(173, 173, 173, 1);
+}
+
+.sub {
+  font-size: 0.8rem;
+  color: grey;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 320px;
+  padding: 20px;
+  margin: 30px 5rem;
+  height: 550px;
+  text-align: center;
+  box-shadow: 0px 0px 20px 10px rgb(0, 0, 0);
+  border-radius: 30px;
+}
+.output-num {
+  color: #1c19d2;
+}
+
+#output {
+  background-color: whitesmoke;
+  font-size: 2rem;
+  height: 60px;
+  width: 280px;
+  font-weight: bold;
+
+  box-shadow: inset 0px 0px 11px -1px rgba(173, 173, 173, 1);
+  border: 3px double rgba(0, 0, 0, 0.822);
+  border-radius: 40px;
+}
+
+#call {
+  display: inline-block;
+  background-color: #007706;
+  padding: 8px 30px;
+  margin: 10px;
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.botrow {
+  margin: 0 auto;
+  width: 280px;
+  clear: both;
+  text-align: center;
+}
+
+.digit:active,
+.dig:active {
+  background-color: crimson;
+}
+
+.digit:hover {
+  background-color: #740000;
+  border-radius: 50%;
+}
+
+#call:hover {
+  background-color: #81c784;
+}
+
+.digit {
+  padding: 5px 40px 5px 25px;
+  margin: 5px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.the-info {
+  font-size: 70px;
+  color: rgb(0, 89, 255);
+  border-radius: 20px;
+  width: 850px;
+  height: 550px;
+  margin-top: 2rem;
+  background-color: rgba(245, 245, 245, 0.637);
+
+  box-shadow: 0px 0px 20px 10px rgb(0, 0, 0);
+}
+
+ul {
+  font-size: 30px;
+  color: rgb(0, 129, 43);
+  list-style: none;
+}
+
+.profile-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.img-div {
+  margin-top: 5rem;
+  margin-left: 2rem;
+}
+
+img {
+  border-radius: 50%;
+  border: 5px double black;
+}
+
+.dtl-div {
+  margin-top: 3.5rem;
+  margin-left: 10rem;
+}
+
+span {
+  color: #2c2c2c;
+}
+.error-loading {
+  display: flex;
+  flex-direction: row;
+}
+
+.blinking-cursor {
+  font-weight: 100;
+  font-size: 30px;
+  color: #2e3d48;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes blink {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-moz-keyframes blink {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-webkit-keyframes blink {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-ms-keyframes blink {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-o-keyframes blink {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
